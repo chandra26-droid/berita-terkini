@@ -23,17 +23,28 @@
       border-left: 4px solid #e63946;
       margin: 20px 0;
     }
-    a.button {
+    a.button, .ad-button {
       display: inline-block;
-      background-color: #e63946;
-      color: #fff;
       padding: 10px 15px;
       text-decoration: none;
       border-radius: 5px;
       margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+    a.button {
+      background-color: #e63946;
+      color: #fff;
     }
     a.button:hover {
       background-color: #d62828;
+    }
+    .ad-button {
+      background-color: #264653;
+      color: #fff;
+      display: none; /* Hidden by default */
+    }
+    .ad-button:hover {
+      background-color: #1b3a4b;
     }
   </style>
 </head>
@@ -51,6 +62,19 @@
   <p>
     Isu ini memicu perdebatan publik. Ekonomi atau ekologi? Kamu di pihak mana?
   </p>
+  
   <a href="https://finance.detik.com/energi/d-7962486/gag-nikel-lanjut-garap-tambang-di-raja-ampat-ini-jawaban-wamen-esdm" class="button" target="_blank">🔗 Baca Selengkapnya di Detik</a>
+
+  <br><br>
+
+  <!-- Adsterra link (hidden by default) -->
+  <a href="https://www.profitableratecpm.com/c5m528qy?key=75a8519e00640d183a0c329d2fe79e64" class="ad-button" id="adButton" target="_blank">💰 Dapatkan Info Menarik Lainnya di Sini</a>
+
+  <script>
+    // Tampilkan tombol Adsterra setelah 5 detik
+    setTimeout(function() {
+      document.getElementById("adButton").style.display = "inline-block";
+    }, 5000);
+  </script>
 </body>
 </html>
