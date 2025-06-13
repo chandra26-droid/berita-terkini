@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebijakan Ekonomi Digital</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Dummy Iklan Adsterra (di header) -->
+  <script>
+    console.log("Adsterra Banner Atas (dummy)");
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Berita Terkini</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Pemerintah Umumkan Kebijakan Baru Terkait Ekonomi Digital</h2>
+    <p><strong>13 Juni 2025</strong> — Dalam konferensi pers hari ini, pemerintah mengumumkan kebijakan baru yang mendukung startup digital lokal...</p>
+
+    <!-- Dummy Iklan Adsterra (di bawah artikel) -->
+    <script>
+      console.log("Adsterra Banner Bawah (dummy)");
+    </script>
+  </main>
+
+  <footer>
+    <p>© 2025 Berita Terkini</p>
+  </footer>
+</body>
+</html>
