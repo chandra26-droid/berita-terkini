@@ -1,33 +1,110 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analis: Israel Kena Batunya Usai Remehkan Kekuatan Iran</title>
 
-header {
-  background: #004080;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Analis menilai Israel kini menghadapi konsekuensi serius akibat meremehkan kekuatan Iran. Ketegangan geopolitik kian memanas di Timur Tengah.">
+  <meta name="keywords" content="Israel, Iran, konflik Timur Tengah, analis politik, berita internasional, strategi militer, ketegangan geopolitik">
+  <meta name="author" content="CNN Indonesia">
+  <meta property="og:title" content="Analis: Israel Kena Batunya Usai Remehkan Kekuatan Iran" />
+  <meta property="og:description" content="Ketegangan meningkat setelah Israel dianggap salah langkah dalam menghadapi Iran. Analis menilai kesombongan berujung bencana." />
+  <meta property="og:url" content="https://www.cnnindonesia.com/internasional/20250616121832-120-1240161/analis-nilai-israel-kena-batunya-karena-remehkan-kekuatan-iran" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="id_ID" />
 
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
 
-main {
-  padding: 20px;
-}
+    header {
+      background: #dc2626;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
 
-article {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
-}
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
 
-footer {
-  background: #eee;
-  text-align: center;
-  padding: 10px;
-}
+    main {
+      max-width: 800px;
+      background: white;
+      margin: 2rem auto;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    main p {
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #dc2626;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.4rem;
+      }
+
+      main {
+        margin: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Analis: Israel Kena Batunya Usai Remehkan Kekuatan Iran</h1>
+  </header>
+
+  <main>
+    <p>
+      Seorang analis menilai bahwa Israel kini menghadapi konsekuensi serius akibat meremehkan kekuatan militer dan strategi Iran. Ketegangan terus meningkat di Timur Tengah, memperlihatkan dinamika geopolitik yang makin kompleks.
+    </p>
+
+    <p>
+      Situasi ini menunjukkan bagaimana kesalahan kalkulasi dalam strategi pertahanan dan politik bisa berdampak luas, tidak hanya secara militer tapi juga pada hubungan diplomatik dan persepsi publik internasional.
+    </p>
+
+    <p>
+      Baca selengkapnya melalui sumber resmi:
+      <br>
+      👉 <a href="https://www.cnnindonesia.com/internasional/20250616121832-120-1240161/analis-nilai-israel-kena-batunya-karena-remehkan-kekuatan-iran" target="_blank">
+        CNN Indonesia: Analis Nilai Israel Kena Batunya karena Remehkan Iran
+      </a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 | Disusun untuk dokumentasi dan edukasi | Sumber: CNN Indonesia
+  </footer>
+
+</body>
+</html>
